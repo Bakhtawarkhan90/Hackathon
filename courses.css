@@ -1,14 +1,74 @@
-/* Reset some default styles */
-* {
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
+    font-family: 'Lato', sans-serif;
+}
+
+.links a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.links a:hover{
+    color: #4361ee;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+nav .left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .left .logo img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+nav .left .links{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav .buttons{
+    display: flex;
+    gap: 14px;
+}
+
+nav .buttons a{
+    background-color: #eaf4f4;
+    padding: 10px;
+    color: #2d6a4f;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #f8f8f8;
   }
 
   header {
