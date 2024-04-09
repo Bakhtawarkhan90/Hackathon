@@ -15,3 +15,7 @@ To run this code -
 Download the zip file,
 Copy and paste the code in .vs folder,
 Run the code through the live server extension.
+
+Here is the screenshot of the project:-
+
+![image](https://github.com/User-define/VS-Project/assets/128951251/f6fe9ec0-5c5e-491c-94fc-6a1bcca6f230)
