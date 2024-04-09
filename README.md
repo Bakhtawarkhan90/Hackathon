@@ -4,7 +4,7 @@ Hello! This is a scratch code of a education responsive website which can be edi
 
 We are using HTML and CSS to create this project but it can be enhanced more with any language.  
 
-I'll guide you step-by-step as we construct a sleek and functional website tailored for learners of all kinds. From HTML markup to CSS styling, we'll cover everything you need to know to create a responsive layout that looks great on desktops, tablets, and smartphones alike.
+I'll guide you step-by-step as we construct a sleek and functional website tailored for learners of all kinds. From HTML markup to CSS styling and Javascript! we'll cover everything you need to know to create a responsive layout that looks great on desktops, tablets, and smartphones alike.
 
 📝 Along the way, we'll explore key concepts such as media queries, flexbox divs, and fluid typography, empowering you to build websites that not only look professional but also provide an optimal user experience across various devices and screen sizes.
 
