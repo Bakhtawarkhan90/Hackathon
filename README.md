@@ -1,8 +1,7 @@
-# Responsive Educational Website
-
+Responsive Educational Website
 Hello! This is a scratch code of a education responsive website which can be edited according to the needs of individual.
 
-We are using HTML and CSS to create this project but it can be enhanced more with any language.  
+We are using HTML and CSS to create this project but it can be enhanced more with any language.
 
 I'll guide you step-by-step as we construct a sleek and functional website tailored for learners of all kinds. From HTML markup to CSS styling and Javascript! we'll cover everything you need to know to create a responsive layout that looks great on desktops, tablets, and smartphones alike.
 
@@ -12,10 +11,8 @@ I'll guide you step-by-step as we construct a sleek and functional website tailo
 
 To run this code -
 
-Download the zip file,
-Copy and paste the code in .vs folder,
-Run the code through the live server extension.
+Download the zip file, Copy and paste the code in .vs folder, Run the code through the live server extension.
 
 Here is the screenshot of the project:-
 
-![image](https://github.com/User-define/VS-Project/assets/128951251/f6fe9ec0-5c5e-491c-94fc-6a1bcca6f230)
+image
