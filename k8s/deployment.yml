@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hack-deployment
+  labels:
+    web: hack
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      web: hack
+  template:
+    metadata:
+      labels:
+        web: hack
+    spec:
+      containers:
+        - name: hackathon
+          image: bakhtawar375/hackathon:latest
+          ports:
+            - containerPort: 80

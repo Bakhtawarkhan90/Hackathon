@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hack-pod
+  labels:
+    web: hack
+spec:
+  containers:
+    - name: hackathon
+      image: bakhtawar375/hackathon:latest
+      ports:
+        - containerPort: 80
