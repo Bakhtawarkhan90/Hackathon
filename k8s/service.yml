@@ -3,12 +3,10 @@ kind: Service
 metadata:
   name: hack-service
 spec:
+  type: ClusterIP
   selector:
-    web: hack
+    app: hack
   ports:
-  - name: http
-    port: 80
-    targetPort: 80
-    nodePort: 30001
-    protocol: TCP
-  type: NodePort
+    - protocol: TCP
+      port: 8000  # Cluster port
+      targetPort: 80 # Container port
